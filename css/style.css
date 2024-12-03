@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+.ul-1, .ul-2{
+    list-style-type: none;
+}
+
+.li-text{
+    color: white;
+    margin: 0 1%;
+}
+
+#logo{
+    max-width: 20%
+}
+
+.li-simbol{
+    width: 10px;
+    height: 10px;
+    margin: 0 5%;
+    background-color: white;
+}
+
+header{
+    background-color: orange;
+    position: sticky;
+    top: 0;
+}
+
+header div{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    margin-top: 10vh;
+    width: 30%;
+}
+
+.look{
+    position: relative;
+}
+
+.card-icon{
+    width: 20px;
+    background-color: white;
+    position: absolute;
+    top: 5vh;
+    right: 0;
+}
+
+.intestazione{
+    color: gray;
+}
+
+.prezzo-2{
+    color: red;
+}
+
+.prezzo-1{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.saldi{
+    position: absolute;
+    bottom: 5vh;
+    left: 0;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.green{
+    background-color: green;
+    color: white;
+}
+
+.img-1{
+    display: block;
+}
+
+.img-1b{
+    display: none;
+}
+
+.look:hover .img-1 {
+    display: none;
+}
+.look:hover .img-1b {
+    display: block;
+}
